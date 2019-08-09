@@ -1,0 +1,11 @@
+注意：
+1、本文件不是应该有的文件，只是作为说明
+2、同级目录下的文件命名有要求：对于我自己的应该如下：templates/search/indexes/Blog/blogpost_text.txt
+    前面的文件夹命令按照要求，Blog就是自己的应用，blogpost就是前面应用Blog下的模型类的小写。
+
+3、Blog应用下的whoosh_cn_backend.py对应的是在setting里面搜索引擎是Blog.whoosh_cn_backend.WhooshEngine
+    *这是因为把whoosh_cn_backend.py拷贝到Blog应用下了，如果是对原路径下的文件进行修改覆盖，则搜索引擎应该设置为haystack.backends.whoosh_cn_backend.WhooshEngine
+
+4、处理数据的配置模块 search_indexes.py 命名不要随便写，就是这个格式，如： search_index.py就会报错
+
+5、
