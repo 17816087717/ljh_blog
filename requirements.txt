@@ -53,7 +53,7 @@ Scrapy==1.7.2
 service-identity==18.1.0
 six==1.11.0
 sqlparse==0.3.0
-Twisted==19.2.0
+Twisted==22.1.0
 urllib3==1.24.1
 vine==1.1.4
 w3lib==1.20.0
